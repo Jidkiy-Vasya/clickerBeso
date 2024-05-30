@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Seymour+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1920px;
+    height: 1920px;
+    background: linear-gradient(220deg, #b8e994, #079992, #eb2f06, 
+    #4a69bd, #b71540);
+    background-size: 300%, 300%;
+    animation: move-bg 13s linear infinite;
+}
+
+@keyframes move-bg{
+    0%{
+        background-position: 0%, 50%;
+        
+    }
+    50%{
+        background-position: 100%, 50%;
+        
+    }
+    100%{
+        background-position: 0%, 50%;
+        
+    }
+}
+
+.nazv{
+    
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    color: rgb(150, 121, 84);
+}
+
+
+
+.besp2{
+    transition: 1s;
+    
+    margin-left: 44.7%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.onimg{
+    display: flex;
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    margin-top: 200px;
+    transition: 1s;
+    height: 50px;
+}
+
+.besp2:hover{
+    transform: scale(1.2);
+    
+}
+
+
+
+.res{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 20px;
+    transition: 1s;
+
+}
+
+
+
