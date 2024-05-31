@@ -111,7 +111,7 @@ function checked(){
         
         
     }
-    if(letter >= 370){
+    if(letter >= 370 && checker){
         icon.src = `img/yeti.jpg`
         vid.innerText = "Тип свинки: Йети свинка👹"
         plusss = 10
@@ -124,6 +124,7 @@ function checked(){
         document.body.style.background = `burlywood`;
         victory.play()
         on.innerText = "Поздравляю, вы дошли до последней свинки"
+        pasx.style.display = "none";
     }
     
 
